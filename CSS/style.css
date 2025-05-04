@@ -59,6 +59,14 @@
     padding: 10px 25px;
     box-shadow: 1px 1px 5px rgb(197, 193, 193);
 }
+@media screen and (max-width:600px){
+    .navbar{
+        background-color: rgb(204, 176, 149);
+        display: block;
+    }
+} 
+    
+
 
 .menu i{
     color:  rgb(37, 92, 175);
@@ -118,7 +126,7 @@
 }
 .fh1{
    height: 50px;
-   width: 230px;
+   width: 250px;
    border: 1px solid  rgb(230, 228, 228);
    border-radius: 5px;
    padding-right: 80px;
@@ -127,12 +135,13 @@
   
 }
 .fh{
-    padding: 20px 20px;
+    padding: 15px 20px;
     padding-bottom: 20px;
 }
 .f{
     padding: 20px 20px;
-    
+    box-shadow:2px 5px 10px rgb(219, 217, 217);
+   border-radius: 3px;
     
 }
 .fh a{
@@ -141,6 +150,7 @@
     color: rgb(77, 77, 156);
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+ 
 }
 .fbtn{
     height: 35px;
@@ -151,8 +161,49 @@
     color: black;
     border: none;
     border-radius: 5px;
+    
+    
 }
 fbtn::after{
     content: "\2192";
     color: black;
+   
+}
+.h{
+    font-size:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.row3{
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+}
+.r3{
+    padding-top: 50px;
+}
+.card{
+    width: 400px;
+    height: 300px; 
+    margin-bottom:20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+
+}
+.img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.wrap{
+    display: flex;
+  scrollbar-width:unset;
+}
+.text1{
+    font-size: small;
+}
+.p{
+    font-size: 21px;
+    text-align: center;
+    padding-top: 5px;
 }

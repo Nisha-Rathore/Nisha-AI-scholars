@@ -197,7 +197,6 @@ fbtn::after{
 }
 .wrap{
     display: flex;
-  scrollbar-width:unset;
 }
 .text1{
     font-size: small;
@@ -207,3 +206,7 @@ fbtn::after{
     text-align: center;
     padding-top: 5px;
 }
+.p1{
+   font-size: 15px;
+}
+.

@@ -80,7 +80,7 @@
     display: grid;
     grid-template-columns: 70% 30%;
 }
-.p1{
+.ph1{
     
     font-size: 300%;
     height: 100px;
@@ -185,9 +185,9 @@ fbtn::after{
     width: 400px;
     height: 300px; 
     margin-bottom:20px;
-    border: 1px solid black;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 1px 1px 5px black;
 
 }
 .img{
@@ -208,5 +208,19 @@ fbtn::after{
 }
 .p1{
    font-size: 15px;
+   text-align: center;
 }
-.
+.card2{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(53, 53, 241);
+    margin-bottom: 50px;
+    border-radius: 20px;
+    color: white;
+    
+
+}
+.row4{
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+}

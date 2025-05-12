@@ -264,7 +264,45 @@ fbtn::after{
 
 
 .idealformat {
-    background-color: blue;
+    background-color: rgb(53, 53, 241);
     padding: 10px;
     
+}
+.r53{
+    display: grid;
+    grid-template-columns:35% 20% 35%;
+    padding: 10px;
+}
+.card4{
+    width:270px;
+    height: 150px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.or{
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.heading{
+    font-size:23px;
+    font-weight: 900;
+    color: rgba(0, 0, 255, 0.729);
+    text-decoration: none;
+}
+.card5{
+    width:470px;
+    height:70px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.col52{
+    padding: 70px;
+    margin-top: 20px;
 }

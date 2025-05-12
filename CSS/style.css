@@ -210,6 +210,8 @@ fbtn::after{
 .p1{
    font-size: 15px;
    text-align: center;
+   line-height:25px;
+   
 }
 .card2{
     text-align: center;
@@ -250,12 +252,12 @@ fbtn::after{
     height: 120px;
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
 }
 .r52{
     display: grid;
-    grid-template-columns:auto auto;
+    grid-template-columns:50% 50%;
 
 }
 .col6{
@@ -266,11 +268,12 @@ fbtn::after{
 .idealformat {
     background-color: rgb(53, 53, 241);
     padding: 10px;
+    padding-bottom: 0px;
     
 }
 .r53{
     display: grid;
-    grid-template-columns:35% 20% 35%;
+    grid-template-columns:35% 25% 35%;
     padding: 10px;
 }
 .card4{
@@ -286,6 +289,7 @@ fbtn::after{
     font-size: medium;
     font-weight: 600;
     padding-top: 60px;
+    padding-left: 40px;
 }
 .heading{
     font-size:23px;
@@ -294,15 +298,73 @@ fbtn::after{
     text-decoration: none;
 }
 .card5{
-    width:470px;
+    width:410px;
     height:70px;
     background-color: white;
     color: black;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
 
 }
 .col52{
-    padding: 70px;
-    margin-top: 20px;
+    padding: 50px;
+    padding-bottom: 20px;
+   
+   
+}
+.card6{
+    width:410px;
+    height:40px;
+    border: 1px solid white;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card7{
+    width:410px;
+    height:40px;
+    font-weight: bold;
+    background-color: rgb(240, 240, 5);
+    border: 1px solid rgb(240, 240, 5);
+    color:black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.r6{
+    line-height: 25px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.r7{
+     display: grid;
+    grid-template-columns:auto auto auto;
+}
+.card8{
+    width: 350px;
+    height: 220px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.card9{
+    border: 1px solid rgb(70, 70, 212);
+    color: white;
+    border-radius: 4px;
+    background-color:rgba(0, 0, 255, 0.729);
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 6px;
+}
+.pt1{
+   font-size: 15px;
+   text-align: center;
+   line-height:25px;
+   padding-top: 35px;
+   
 }

@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .container{
@@ -58,16 +59,15 @@
     background-color: white;
     padding: 10px 25px;
     box-shadow: 1px 1px 5px rgb(197, 193, 193);
+    
+   
 }
 @media screen and (max-width:600px){
     .navbar{
         background-color: rgb(204, 176, 149);
         display: block;
     }
-} 
-    
-
-
+}    
 .menu i{
     color:  rgb(37, 92, 175);
     padding: 8px 8px;
@@ -83,11 +83,10 @@
 .ph1{
     
     font-size: 300%;
-    height: 100px;
+    height: 50px;
     font-weight: 200;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    top-gap:10px;
     padding-bottom: 70px;
 }
 .p2{
@@ -95,6 +94,7 @@
     font-weight: 200;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
 
 }
 .p3{
@@ -107,6 +107,14 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }
+@media screen and (max-width:600px){
+    .row1{
+        background-color: rgb(204, 176, 149);
+        display: block;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}    
 .p{
     font-size: 25px;
     font-weight: 600;
@@ -124,6 +132,13 @@
     padding-bottom: 20px;
 
 }
+.border1{
+     padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
 .fh1{
    height: 50px;
    width: 250px;
@@ -161,13 +176,6 @@
     color: black;
     border: none;
     border-radius: 5px;
-    
-    
-}
-fbtn::after{
-    content: "\2192";
-    color: black;
-   
 }
 .h{
     font-size:10px;
@@ -181,6 +189,7 @@ fbtn::after{
 .r3{
     padding-top: 50px;
 }
+
 .card{
     width: 400px;
     height: 300px; 
@@ -188,8 +197,6 @@ fbtn::after{
     border-radius: 20px;
     background-color: white;
     box-shadow: 1px 1px 5px black;
-   
-
 }
 .img{
     width: 400px;
@@ -206,29 +213,49 @@ fbtn::after{
     font-size: 21px;
     text-align: center;
     padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p9{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .p1{
    font-size: 15px;
    text-align: center;
    line-height:25px;
+   font-family: Arial, Helvetica, sans-serif;
    
 }
 .card2{
     text-align: center;
     width: 370px;
     height: 170px;
-    background-color: rgb(53, 53, 241);
+    background-color: rgb(34, 61, 213);
     margin-bottom: 50px;
     border-radius: 20px;
     color: white;
     padding-top: 50px;
     margin: 10px;
-    
-
+    padding: 30px;
 }
+.p10{
+    font-size: 16px;
+    text-align:left;
+    line-height:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
 .row4{
     display: grid;
     grid-template-columns:33.3% 33.3% 33.3%;
+}
+.r4{
+    padding-top: 50px;
+    line-height: 30px;
+    text-align: center;
 }
 .row5{
     line-height: 28px;
@@ -241,6 +268,9 @@ fbtn::after{
     line-height: 30px;
     padding: 10px;
     
+}
+.colr41{
+   text-align: left; 
 }
 .col51{
     color: white;
@@ -266,7 +296,7 @@ fbtn::after{
 
 
 .idealformat {
-    background-color: rgb(53, 53, 241);
+    background-color: rgb(34, 61, 213);
     padding: 10px;
     padding-bottom: 0px;
     
@@ -292,9 +322,9 @@ fbtn::after{
     padding-left: 40px;
 }
 .heading{
-    font-size:23px;
-    font-weight: 900;
-    color: rgba(0, 0, 255, 0.729);
+    font-size:18px;
+    font-weight: 800;
+    color:rgb(11, 86, 166);
     text-decoration: none;
 }
 .card5{
@@ -328,8 +358,8 @@ fbtn::after{
     width:410px;
     height:40px;
     font-weight: bold;
-    background-color: rgb(240, 240, 5);
-    border: 1px solid rgb(240, 240, 5);
+    background-color: rgb(236, 201, 26);
+    border: 1px solid rgb(234, 197, 13);
     color:black;
     padding: 10px 20px;
     border-radius: 5px;
@@ -344,18 +374,19 @@ fbtn::after{
 .r7{
      display: grid;
     grid-template-columns:auto auto auto;
+    padding-bottom: 90px;
 }
 .card8{
-    width: 350px;
-    height: 220px;
+    width: 400px;
+    height: 250px;
     border: 1px solid gray;
     border-radius: 4px;
 }
 .card9{
-    border: 1px solid rgb(70, 70, 212);
+    border: 1px solidrgba(6, 102, 235, 0.969);
     color: white;
     border-radius: 4px;
-    background-color:rgba(0, 0, 255, 0.729);
+    background-color:rgb(36, 120, 211);
     font-size:large;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -368,3 +399,65 @@ fbtn::after{
    padding-top: 35px;
    
 }
+.card10{
+    width:100px;
+    color:white;
+    background-color: rgb(231, 187, 40);
+    border-radius: 5px;
+    margin: 15px 130px;
+}
+.r8{
+    display: grid;
+    grid-template-columns:28% 30% 27% 20%;
+}
+.image{
+  color: white;
+}
+i{
+    text-decoration: none;
+}
+.r8{
+    color: white;
+    background-color: rgb(2, 5, 22);
+    padding-top: 20px;
+    line-height: 30px;
+}
+.card11{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    align-items: center;
+    display: inline;
+    padding: 10px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.style{
+    color: rgb(229, 193, 11);
+    display: inline;
+}
+.col84{
+    line-height: 70px; 
+}
+.footer {
+    background-color: rgb(2, 5, 22);
+    padding: 10px;
+    padding-bottom: 0px;
+    
+}
+.row9{
+    display: grid;
+    grid-template-columns: 100%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.foot{
+    background-color: rgb(252, 215, 53);
+    padding: 15px;
+    text-align: center;
+   
+}
+
+
